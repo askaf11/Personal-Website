@@ -1,0 +1,299 @@
+/* -------------------- Pc -------------------- */
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p {
+    line-height: 1.8;
+}
+
+.card {
+    border: none !important;
+
+}
+
+/* ---------------------------------------- Font */
+.font-small {
+    font-weight: normal;
+    font-size: 1.5vw !important;
+}
+
+.font-small-special {
+    font-weight: 400;
+    font-size: 1.5vw;
+    color: #282A35;
+}
+
+.font-large {
+    font-weight: normal;
+    font-size: 2.5vw !important;
+}
+
+.font-xl {
+    font-weight: normal;
+    font-size: 5vw;
+}
+
+
+/* ---------------------------------------- Color */
+.dark-bg {
+    background-color: #282A35;
+    padding: 5% 0%;
+}
+
+.text-color-green {
+    color: #00b899 !important;
+}
+
+/* ---------------------------------------- Icon */
+.icon {
+    font-size: 6vw !important;
+    color: #282A35;
+}
+
+/* ---------------------------------------- NavBar */
+
+.nav-logo-hide {
+    visibility: hidden;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.nav-item:hover {
+    background-color: lightgray !important;
+}
+
+.nav-link {
+    color: #282A35 !important;
+}
+
+.active {
+    border-bottom: 2px solid #00b899;
+}
+
+/* ---------------------------------------- Section */
+.section {
+    padding: 10% 5%;
+}
+
+/* ---------------------------------------- Section-1 */
+.section-1-img {
+    /* margin-top: 10%; */
+    width: 35%;
+    border-radius: 50%;
+}
+
+.section-1-text {
+    /* border-left: 2px solid #2c3034; */
+    padding-left: 5%;
+    width: 50%;
+}
+
+/* ---------------------------------------- Section-2 */
+
+.section-2-card {
+    width: 35%;
+}
+
+.section-2-card-title {
+    background-color: #00b899;
+    color: white;
+}
+
+
+/* ---------------------------------------- Section-4 */
+.section-4-text {
+    width: 40%;
+    text-align: justify;
+    margin: auto 0%;
+    color: #cccccc;
+}
+
+.section-4-img {
+    width: 40%;
+}
+
+/* ---------------------------------------- Section-5 */
+.section-5-text {
+    width: 40%;
+    text-align: justify;
+    margin: auto 0%;
+
+}
+
+/* ---------------------------------------- Section-6 */
+.section-6-text {
+    width: 50%;
+    text-align: start;
+}
+
+/* ---------------------------------------- Social-Icon */
+.social-icon {
+    font-size: 3.5vw;
+    margin: 1.5vw;
+    color: gray;
+}
+
+.social-icon:hover {
+    color: #cccccc;
+}
+
+/* ---------------------------------------- About-Page*/
+
+.hr-line-bottom {
+    margin: 2.5% auto 0% auto;
+    border: 1px solid #00b899;
+    opacity: 1.0;
+    width: 30%;
+}
+
+.a-section-2 {
+    width: 25%;
+    margin: 10% 0% 5% 0%;
+    background-color: #282A35;
+    padding: 2% 0;
+}
+
+.a-section-2-text {
+    padding: 5% 0%;
+    width: auto;
+    color: #cccccc;
+}
+
+.a-section-3 {
+    margin: auto;
+    width: 40%;
+}
+
+.a-icon {
+    font-size: 3vw !important;
+    color: #282A35;
+}
+
+/* ---------------------------------------- Mobile */
+@media screen and (max-width:576px) {
+
+    .none {
+        display: none;
+    }
+
+
+    /* ---------------------------------------- Fonts */
+    .font-xl {
+        font-size: 9vw !important;
+    }
+
+    .font-large {
+        font-size: 7vw !important;
+    }
+
+    .font-small {
+        font-size: 5vw !important;
+    }
+
+    .font-small-special {
+        font-size: 4vw;
+    }
+
+    /* ---------------------------------------- Icon */
+    .icon {
+        font-size: 14vw !important;
+    }
+
+    /* ---------------------------------------- NavBar */
+    .nav-item {
+        margin: 1.5vh 0vh;
+    }
+
+    .navbar-toggler {
+        border: none !important;
+    }
+
+    .active {
+        border-bottom: unset;
+    }
+
+
+    /* ---------------------------------------- Section */
+    .section {
+        height: unset;
+        padding: 20% 10%;
+    }
+
+    /* ---------------------------------------- Section-1 */
+    .section-1-text {
+        border: none;
+        width: 100%;
+    }
+
+
+    /* ---------------------------------------- Section-2 */
+    .section-2-card {
+        width: 100%;
+    }
+
+    /* ---------------------------------------- Section-3 */
+    .section-3 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section-3-card {
+        margin: 10% 0%;
+    }
+
+    /* ---------------------------------------- Section-4 */
+    .section-4-text {
+        width: 100%;
+    }
+
+    .section-4-img {
+        width: 100%;
+    }
+
+    /* ---------------------------------------- Section-5 */
+    .section-5-text {
+        width: 100%;
+        text-align: justify;
+        margin: 5% 0;
+    }
+
+    /* ---------------------------------------- Section-6 */
+    .section-6 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-6-text {
+        width: 80% !important;
+        text-align: justify !important;
+    }
+
+    /* ---------------------------------------- Social-Icon */
+    .social-icon {
+        font-size: 10vw;
+        margin: 2vw;
+    }
+
+    /* ---------------------------------------- Project */
+    .p-view-btn {
+        margin-bottom: 5%;
+    }
+
+    /* ---------------------------------------- About */
+    .a-flex-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .a-section-2 {
+        width: 100% !important;
+    }
+}
