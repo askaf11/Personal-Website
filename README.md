@@ -1,7 +1,7 @@
 <h1>Personal Website</h1>
 <p align="justify">Welcome to my <a href="https://askaf11.github.io/Personal-Website/">Personal Website</a> repository! This project showcases my portfolio, blog, resume, and other personal interests. It serves as a hub for my professional online presence and a space to share my thoughts and projects with the world.</p>
 
-<a href="https://askaf11.github.io/Portfolio-Website/">![Portfolio Website Preview](assets/img/project-3.webp)</a>
+<a href="https://askaf11.github.io/Personal-Website/">![Portfolio Website Preview](assets/img/project-3.webp)</a>
 
 <h2>Features</h2>
 <ul>
